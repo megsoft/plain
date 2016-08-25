@@ -1,0 +1,89 @@
+﻿
+
+
+    .Itemdiv {
+        width: 100%;
+        float: left;
+        padding-bottom :25px;
+    }
+    .add {
+        background: url(images/add_icon.gif) no-repeat 0px 0px;
+        text-indent: 20px;
+        display: block;
+        font-size: 1.2em;
+        height: 16px;
+    }
+	 .download {
+        background: url(images/download.gif) no-repeat 10px 0px;
+        text-indent: 30px;
+        display: block;
+        font-size: 1.2em;
+        height: 16px;
+    }
+
+     .modal.fade .modal-dialog 
+{
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+     	
+.YellowWarning
+{
+	background-color:#F9F5E3;
+	color:#000;
+	padding:5px;
+	font-weight:400;
+	margin-bottom: 3px;
+    display: none;
+}
+
+
+.Warning{
+	background-color:red;
+	color:white;
+	padding:5px;
+	font-weight:700;
+	display: none;
+}
+.Warning a{
+	color:#ffffff;
+}
+
+
+
+    /*.textbox
+    {
+        
+        font-size: 12px; 
+        width:250px; 
+        color: #666; 
+        font-weight: 500; 
+        margin-top: 25px;
+    }
+    
+    .label
+    {
+        
+        font-size: 12px; 
+        width: 90px; 
+        color: #666; 
+        font-weight: 500; 
+        margin-top: 25px;
+    }
+    .seperator
+    {
+        
+        font-size: 12px; 
+        width: 10px; 
+        color: #666; 
+        font-weight: 500; 
+        margin-top: 25px;
+    }*/

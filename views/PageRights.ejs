@@ -1,0 +1,183 @@
+﻿
+<%- include layouts/header.ejs %>
+ <script type="text/javascript" src="scripts/jsRights.js"></script>  
+  <link rel="stylesheet" href="css/Rights.css" type="text/css"  />
+  
+<div class="motopress-wrapper content-holder clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="span12" data-motopress-wrapper-file="page-fullwidth.php" data-motopress-wrapper-type="content">
+				<div class="row">
+					<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
+						<section class="title-section">
+							<h4 >Access Rights</h4>
+						</section><!-- .title-section -->
+					</div>
+				</div>
+				<div id="content" class="row">
+					<div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
+							<div id="post-2448" class="page post-2448 type-page status-publish hentry">  
+
+
+<div id="DivSaveMenuID" style="display:none"></div>
+<div id="DivSaveNewMenuID" style="display:none"></div>
+<div id="DivSavePageID" style="display:none"></div>
+
+
+	
+
+<div id="OldID" style="display: none;"></div>  
+<div id="MenuID" style="display: none;"></div>  
+
+  <div class="modal fade" data-backdrop="static" data-keyboard="false" id="DivTeamUserTypeSetting"  >
+	 <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+		  <div class="modal-header"> <!-- modal header -->		  
+            <button type="button" class="close" data-dismiss="modal"
+            aria-hidden="true">×</button>
+			
+          <h4>  <span id ='spantitle' class="modal-title"> Menu/Team-Usertype Settings || New </span></h4>
+          </div>
+
+		   <div class="modal-body"> <!-- modal body -->
+           
+    <FIELDSET style="border-color: aliceblue;">
+
+    <table>
+    <tr>
+            <td colspan="2" style="height:20px">
+                <div class="YellowWarning2" align="center">
+		            
+	            </div>
+            </td>
+        </tr>
+     <tr>
+        <td style="  padding-left: 15px;font-size:12px;color:#666; font-weight:500; margin-top:10px;width:105px;" align="left">Type</td>
+       <td> <div id="DivMenuTypes" class="groupbuttons-group">
+          
+             </div></td>
+    </tr> 
+      <tr>
+          
+        <td style="  padding-left: 15px;font-size:12px;color:#666; font-weight:500; margin-top:25px;" align="left" ><div id="DivselectMenu" style="display:none">Menu</div></td>
+        <td><div id="DivlstMenu" style="display:none"><select id="lstMenu" style="width:180px;" ></select></div>
+     </td>
+    
+    </tr>
+    <tr>
+        <td style="  padding-left: 15px;font-size:12px;color:#666; font-weight:500; margin-top:25px;" align="left" ><div id="DivselectPage" style="display:none">Select Page</div></td>
+        <td><div id="DivlstPage" style="display:none"><select id="lstPage" style="width:180px;" ></select></div>
+     </td>
+    
+    </tr>
+    <tr>
+        <td style="  padding-left: 15px;font-size:12px;color:#666; font-weight:500; margin-top:25px;" align="left" >Name</td>
+        <td><input type="text" id="txtmenuname" style="  width: 175px;"  />
+     </td>
+    
+    </tr>
+      
+      
+     <tr>
+         <td style="  padding-left: 15px;font-size:12px;color:#666; font-weight:500; margin-top:25px;" align="left" >Path</td>
+        <td><input type="text" id="txtPath" style="  width: 175px;"   /></td>
+         </tr>
+
+      
+
+       <tr>
+          <td style="font-size:12px;color:#666; font-weight:500; margin-top:25px;" align="left">
+                Active Status</td>
+            
+           <td>
+                <input type="checkbox" id="chkStatusIsActive" />
+                            <input type="hidden" id="hfHTSID" />
+            </td>
+        </tr>
+                      
+</table>
+        </FIELDSET> 
+     <FIELDSET style="margin-top:15px;border-color: aliceblue;">
+<LEGEND style="margin-top:10px">Team/Usertype Settings</LEGEND>
+         
+  <table style="margin-top:8px;margin-left:15px;">
+            <tr>
+                <td>
+                    <a id="btnAllEnty" onclick="SelectAllSettings()" class="SelectButton" style="float: left;width: 75px;">Select All</a>
+                    <a id="btnNoneEnty" onclick="SelectNoneSettings()" class="SelectButton" style="float: left; margin-left: 20px;">Select None</a>
+                </td>
+            </tr>
+           
+        </table>
+   <div class="table-wrapper">
+    <table class="tblsettings" id="tblTeamUser" border="1" style="margin-left:15px;">
+        
+       
+
+    </table>
+       </div>
+              
+         </FIELDSET>
+          </div>
+		    <div class="modal-footer"> <!-- modal footer -->
+        <button id='btncancel' type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								<input id='btnsave' type="button" name="submit" value="Save" class="btn btn-primary">
+         
+            
+          </div>
+		  </div> <!-- / .modal-content -->
+     </div> <!-- / .modal-dialog -->
+	    </div>
+
+
+
+
+
+
+<div id="deleteconfirm" style="display:none;" title="Alert">
+</div>
+<div id="msgbox-select" title="Alert" style="display: none;">
+    <p id="msg">First select any contact from the list and try again.
+    </p>
+</div>
+
+	
+
+<div id="UserInfo" style="overflow-y:scroll; min-height:400px;">
+   
+       
+       <div class="Itemdiv">
+            <div style="margin-top:10px;  font-size: 12px;font-weight: bold;"><a href="#" onclick="AddMenu()">Add Menu</a></div>
+            <table style="float: left;">
+                <tr>
+                    <td>
+                        <div id='cssmenu' style="float: left;">
+
+                            <div id="maincategory">
+
+                            </div>
+
+                        </div>
+
+                        <div id="UserArticles"  style=" margin-left: 210px; width: 775px; height: 35px; border-radius: 4px;">
+                            <table id="colorchange" style="width: 775px; font-family: serif; height: 33px; font-size: 16px;">
+                             
+                                <tbody style="box-shadow: -1px 1px 5px;">
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+</div>
+
+
+ <%- include layouts/modal.ejs %>
+
+
+
+<%- include layouts/footer.ejs %>

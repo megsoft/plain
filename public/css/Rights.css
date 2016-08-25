@@ -1,0 +1,203 @@
+﻿
+   
+     /*MDR: 25-6-2015:Menu/usertype-team settings page*/
+.groupbuttons {
+    display: inline-block;
+    padding: 3px 10px;
+    background: #EEE;
+    border: none;
+    color: #222;
+    cursor: pointer;
+}
+
+    .groupbuttons:hover,
+    .groupbuttons:active,
+    .groupbuttons.is-checked {
+        background-color: #2e738d;
+    }
+
+    .groupbuttons.is-checked {
+        color: white;
+        background-color: #2e738d;
+         }
+
+
+.groupbuttons-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.groupbuttons-group .groupbuttons {
+    float: left;
+    padding: 5px 5px;
+      width: 100px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+   a.SelectButton:hover {
+            border: 1px solid rgb(26, 151, 224);
+            background-color: #2e738d;                    
+            color:white;
+        }
+
+    a.FilterSelected  {
+            border: 1px solid rgb(26, 151, 224);
+            background-color: #2e738d;
+            color: white;
+        
+            
+        }
+
+
+
+
+
+   .SelectButton {
+        font-size: 14px;
+  display: inline-block;
+
+  text-decoration: none;
+  border-radius: 2px;
+  white-space: nowrap;
+  padding: 3px 5px;
+   text-align: center;
+  bottom: 0px;
+  border: 1px solid #77C1FF;
+  border-radius: 5px;
+    cursor: pointer;
+}
+    .DivTeams {
+        font-size: 14px;
+          background-color: #2e738d;
+        
+  color: white;
+
+    text-align: center;
+    height: 30px;
+  line-height: 30px;
+  /*display: inline-block;*/
+
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+    }
+
+    .DivUsertypes {
+        font-size: 14px;
+          height: 30px;
+          line-height: 28px;
+          width: 95px;
+          text-align: center;
+          white-space:nowrap;
+          overflow: hidden !important;
+         text-overflow: ellipsis;
+         background-color: #333f3f ;
+         color:white;
+    }
+
+.Adminsettings{
+width:100%;
+float:left;
+}
+
+    .tblsettings {
+        margin-top: 15px;
+        /*width:100%;*/
+float:left;
+border:solid 1px black;
+/*height: 185px;*/
+border-collapse: collapse;
+border-color:darkgray;
+
+    }
+
+.add{ 
+background:url(css/images/add_icon.gif) no-repeat 10px 0px;
+text-indent:30px;
+display:block;
+font-size:1.2em;
+height: 16px;
+}
+
+.AdminsettingsYellowWarning
+{
+	background-color:#F9F5E3;
+	color:#000;
+	padding:5px;
+	font-weight:400;
+	margin-bottom: 3px;
+    display: none;
+}
+
+
+.AdminsettingsWarning{
+	background-color:red;
+	color:white;
+	padding:5px;
+	font-weight:700;
+	display: none;
+}
+
+    .lst:hover{
+        background: #d4d0c8;
+        cursor:pointer;
+    }
+    
+    
+    .mystyle {
+        background: none;
+    }
+    .StyleSections {
+        background-color : dimgray;
+    }
+    
+
+.add{ 
+background:url(css/images/add_icon.gif) no-repeat 10px 0px;
+text-indent:30px;
+display:block;
+font-size:1.2em;
+height: 16px;
+}
+
+.TruckYellowWarning
+{
+	background-color:#F9F5E3;
+	color:#000;
+	padding:5px;
+	font-weight:400;
+	margin-bottom: 3px;
+    display: none;
+}
+
+
+.TruckWarning{
+	background-color:red;
+	color:white;
+	padding:5px;
+	font-weight:700;
+	display: none;
+}
+
+.sprite { background: url('./custom-theme/images/ico-mster.png') no-repeat top left; width: 20px;  } 
+
+.sprite:hover {
+   background: url('./custom-theme/images/ico-mster-bl.png') no-repeat top left; width: 20px;
+}
+
+
+.sprite.srtdwn { background-position: -244px -32px; 
+  width: 22px;
+  height: 20px; } 
+.sprite.srtup { background-position: -275px -32px; 
+   width: 22px;
+  height: 20px;} 
+.sprite.useracc {background-position: -27px -278px; 
+  width: 22px;
+  height: 20px;border-radius: 5px;} 
+.sprite.clse {  background-position: -151px -114px;  width: 22px;
+  height: 20px; } 
+

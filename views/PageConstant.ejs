@@ -1,0 +1,160 @@
+<%- include layouts/header.ejs %>
+	<script type="text/javascript" src="scripts/jsConstant.js"></script>
+ 
+<div class="motopress-wrapper content-holder clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="span12" data-motopress-wrapper-file="page-fullwidth.php" data-motopress-wrapper-type="content">
+				<div class="row">
+					<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
+						<section class="title-section">
+							<h4 >Company</h4>
+						</section><!-- .title-section -->
+					</div>
+				</div>
+				<div id="content" class="row">
+					<div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
+							<div id="post-2448" class="page post-2448 type-page status-publish hentry">  
+					<div class="Itemdiv">
+					<table id="fgrdData" style="display: none;"></table>
+					</div>
+
+			<div id="DeleteConform" style="display: none; title="Alert">
+            </div>
+
+
+
+
+<div id="EntryModal" data-backdrop="static" data-keyboard="false" class="modal fade " > <!-- class modal and fade -->
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          
+          <div class="modal-header"> <!-- modal header -->		  
+           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="myModalLabel">Add Company</h4>
+          </div>
+		  
+          <div class="modal-body"> <!-- modal body -->
+             <div class="Warning" align="center">
+                    OOPS! Unable to process your request. Please contact admin!
+                </div>
+                <div class="YellowWarning" align="center">
+                    All fields are required fields, Please try again.
+                </div>
+            
+               
+							<div class="page-data">
+
+							
+                  <div id="DivItem" style="display: block;" align="center">
+									<span style="color:red; visibility:hidden" id="uid">
+									</span>
+									<table  style="text-align: left; border-spacing: 5px;     border-collapse: separate;" >
+                                    <tr >
+										<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">
+                                        Name</td> 
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+										<td> <input style="width: 200px;" type='text' id="txtName" maxlength="50" required>
+											</input>
+										</td>
+
+									</tr>
+								 
+								<tr>
+									<td  style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Address</td>
+
+									<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+									
+									<td > <textarea name="address" id="txtAddress" maxlength="50"  style="width: 200px; height:35px" requiredcols="30" rows="5">
+										</textarea>
+									</td>
+								</tr>
+								
+									<tr>
+									<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Country</td>
+									<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+									<td>
+                                        <select id="ddlCountry" style="width: 215px; height:25px">
+                                       
+                                        </select>
+                                        
+                             
+										</td>
+									</tr>
+
+									<tr>
+									<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">State</td>
+									<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+									<td>
+                                        <select id="ddlState" style="width: 215px; height:25px">
+                                       
+                                        </select>
+                                        
+                             
+										</td>
+									</tr>
+
+									<tr>
+									<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">City</td>
+									<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+									<td>
+                                        <select id="ddlCity" style="width: 215px; height:25px">
+                                       
+                                        </select>
+                                        
+                             
+										</td>
+									</tr>
+
+										<tr>
+										<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Zipcode</td>
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+										<td> <input type="text" name="Zipcode" style="width: 200px;" id="txtZipcode" maxlength="50" required>
+											</td>
+										</tr>
+
+
+									<tr>
+										<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Fax</td>
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+										<td> <input type="text" name="Fax" style="width: 200px;" id="txtFax" maxlength="50"  required>
+											</td>
+										</tr>
+									<tr>
+
+
+
+										<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Phone</td>
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+										<td> <input type="text" name="phone" style="width: 200px;" id="txtPhone" maxlength="50"  required>
+											</td>
+										</tr>
+								<tr>
+										<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Website</td>
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+										<td> <input type="text" name="Website" style="width: 200px;" id="txtWebsite" maxlength="50"  required>
+											</td>
+										</tr>
+								<tr>
+										<td style="font-size: 14px; width: 50px; color: #666; font-weight: 500; margin-top: 25px;" align="left">E-mail</td>
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:</td>
+										<td> <input type="text" name="Email" style="width: 200px;" id="txtEmail" maxlength="50"  required>
+											</td>
+										</tr>
+
+
+
+									</table>
+								</div> <!--class DivItem -->  
+							</div>  <!-- class page data -->            
+				</div> <!-- modal body -->		  
+					<div class="modal-footer"> <!-- modal footer -->         
+						<button id='btncancel' type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<input id='btnsave' type="button" name="submit" value="Save" class="btn btn-primary">
+					</div><!--class  modal footer --> 		  
+        </div> <!-- / .modal-content -->
+     </div> <!-- / .modal-dialog -->
+  </div><!-- / .modal -->
+  
+<%- include layouts/modal.ejs %>
+<%- include layouts/footer.ejs %>

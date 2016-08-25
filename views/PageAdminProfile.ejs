@@ -1,0 +1,177 @@
+<%- include layouts/header.ejs %>
+<script type="text/javascript" src="./scripts/jsAdminProfile.js"></script>  
+
+<div class="motopress-wrapper content-holder clearfix">
+	<div class="container">
+		<div class="row">
+			<div class="span12" data-motopress-wrapper-file="page-fullwidth.php" data-motopress-wrapper-type="content">
+				<div class="row">
+					<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
+						<section class="title-section">
+							<h4 >Admin Profile</h4>
+						</section><!-- .title-section -->
+					</div>
+				</div>
+				<div id="content" class="row">
+					<div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
+							<div id="post-2448" class="page post-2448 type-page status-publish hentry">  
+				
+	
+					
+                                <div id="DivItem" style="display: block; padding-bottom:20px;" align="Left">
+								
+									<div class="Success" id="Msg" align="center">
+										<span class="label label-success"> <lable style="color: white;">Your email verified successfully.Please create a new password for your account.</lable></span>
+									</div>
+									<span style="color:red; visibility:hidden" id="uid">
+									</span>
+									<table  style="text-align: left; border-spacing: 5px;     border-collapse: separate;" >
+                                    <tr >
+										<td style="font-size: 14px; width:75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">
+                                       First Name</td> 
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >: </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" >* </td>
+										<td> <input style="width: 200px;" type='text' id="txtFirstName"  maxlength="50" required>
+											</input>
+										</td>
+
+									</tr>
+									 <tr >
+										<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">
+                                       Initial </td> 
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:   </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" > </td>
+										<td> <input style="width: 60px;" type='text' id="txtInitial"  maxlength="50" required>
+											</input>
+										</td>
+
+									</tr>
+									 <tr >
+										<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">
+                                       Last Name </td> 
+														<td style="font-size: 14px; width: 10; color: #666; font-weight: 500; margin-top: 25px;" align="left" >: </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" >* </td>
+										<td> <input style="width: 200px;" type='text' id="txtLastName"  maxlength="50" required>
+											</input>
+										</td>
+
+									</tr>
+								
+								<tr>
+									<td  style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Address</td>
+
+									<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:   </td>
+									<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" > </td>
+									<td > <textarea name="address" id="txtAddress" maxlength="350"  style="width: 200px; height:35px" requiredcols="30" rows="5">
+										</textarea>
+									</td>
+								</tr>
+								
+									<tr>
+									<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Country</td>
+													<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >: </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" >* </td>
+									<td>
+                                        <select id="ddlCountry" style="width: 215px; height:25px">
+                                       
+                                        </select>
+                                        
+                             
+										</td>
+									</tr>
+
+									<tr>
+									<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">State</td>
+									<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:   </td>
+									<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" > </td>
+									<td>
+                                        <select id="ddlState" style="width: 215px; height:25px">
+                                       
+                                        </select>
+                                        
+                             
+										</td>
+									</tr>
+
+									<tr>
+									<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">City</td>
+									<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:   </td>
+									<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" > </td>
+									<td>
+                                        <select id="ddlCity" style="width: 215px; height:25px">
+                                       
+                                        </select>
+                                        
+                             
+										</td>
+									</tr>
+										<tr>
+										<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Zipcode</td>
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:   </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" > </td>
+										<td> <input type="text" name="Zipcode" style="width: 200px;" id="txtZipcode"  maxlength="50" required>
+											</td>
+									</tr>
+
+									<tr>
+
+
+
+										<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Phone</td>
+										<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >:   </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" > </td>
+										<td> <input type="text" name="Phone" style="width: 200px;" id="txtPhone"  maxlength="50" required>
+											</td>
+										</tr>
+											<tr>
+
+
+
+										<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Mobile</td>
+														<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >: </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" >* </td>
+										<td> <input type="text" name="Mobile" style="width: 200px;" id="txtMobile"  maxlength="50" required>
+											</td>
+										</tr>
+								
+
+										<tr>
+										<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">E-mail</td>
+														<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >: </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" >* </td>
+										<td> <input type="text" name="Email" style="width: 200px;" id="txtEmail"  maxlength="50" required>
+											</td>
+										</tr>
+										<tr>
+
+
+
+										<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">Password</td>
+														<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >: </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" >* </td>
+										<td> <input type="password" name="Password" style="width: 200px;" id="txtPassword"  maxlength="50" required>
+											</td>
+										</tr>
+										<tr>
+									<td style="font-size: 14px; width: 75px; color: #666; font-weight: 500; margin-top: 25px;" align="left">IsActive</td>
+													<td style="font-size: 14px; width: 10px; color: #666; font-weight: 500; margin-top: 25px;" align="left" >: </td>
+										<td style="font-size: 14px; width: 10px; color:Red; font-weight: 500; margin-top: 25px;" align="left" >* </td>
+									<td>
+                                        <select id="ddlActive" style="width: 215px; height:25px">
+                                       <option value="Yes">Yes</option>
+                                        <option value="No">No</option>
+                                        </select>
+                                        
+                             
+										</td>
+									</tr>
+
+									</table>
+									<div style="  padding-left: 150px;" align="left">
+
+								<input id='btnUpdate' type="button" name="submit" value="Update" class="btn btn-primary">								
+								</div>
+
+								</div> <!--class DivItem -->  
+
+<%- include layouts/footer.ejs %>
