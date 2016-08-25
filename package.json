@@ -2,7 +2,13 @@
   "name": "plainapp",
   "version": "0.0.0",
   "description": "plainapp",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },  
   "author": {
     "name": "megsoft11",
     "email": ""
@@ -11,5 +17,15 @@
     "express": "3.4.4",
     "jade": "*",
     "stylus": "*"
-  }
+  },
+   "repository": {
+    "type": "git",
+    "url":"https://github.com/megsoft/plain/"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
